@@ -1,0 +1,226 @@
+* { 
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Roboto', sans-serif;
+} 
+ 
+.center { 
+    max-width: 100%; 
+    padding: 0 2%; 
+    margin: 0 auto;
+} 
+ 
+.clear { 
+    clear: both;
+} 
+
+header { 
+    background-color: #000000;  
+    padding: 8px 0;
+} 
+
+div > .logo { 
+    background: rgb(0, 0, 0); 
+    padding: 8px 0; 
+} 
+
+div > .logo > h2 { 
+    color: white;  
+    font-size: 30px; 
+    float: left; 
+    margin-left: 250px; 
+    margin-top: 10px;
+}
+ 
+form.form-login { 
+    margin-left: 100px; 
+    float: right; 
+}
+
+.form-login > .form-element { 
+    display: inline-block; 
+    margin-right: 15px;
+} 
+
+.form-element > p { 
+    color: white; 
+    font-size: 14px;
+} 
+
+.form-element input[type=email], 
+.form-element input[type=password] { 
+    margin-top: 4px;
+} 
+
+.form-element input[type=submit] { 
+    cursor: pointer; 
+    border: 0; 
+    background-color: #4d4b4b; 
+    padding: 3px 5px; 
+    color: white; 
+ 
+} 
+ 
+.form-element input[type=submit]:hover { 
+    background-color: #1d1d1d;
+} 
+
+section.main { 
+    background: linear-gradient(white, #d3d8e8); 
+    padding: 40px 0;
+} 
+ 
+.img-caveira { 
+    float: left; 
+    width: 50%;
+} 
+ 
+.img-caveira > img { 
+    max-width: 52%; 
+    margin-left: 100px; 
+    
+} 
+
+div.abrir-conta { 
+    width: 30%; 
+    float: left; 
+    font-weight: normal;
+} 
+ 
+.abrir-conta h2 { 
+    font-size: 20px;
+} 
+ 
+.abrir-conta h3 {  
+    color: #4d4b4b;
+} 
+
+form.create-account { 
+    margin-top: 10px;
+} 
+
+.w50 { 
+    width: 50%; 
+    padding: 0 5px; 
+    float: left;
+} 
+ 
+.w100 { 
+    padding: 0 5px; 
+    width: 100%; 
+    float:left;
+} 
+
+form.create-account input { 
+    width: 100%; 
+    margin-top: 8px;
+} 
+ 
+form.create-account input[type=text],
+form.create-account input[type=email], 
+form.create-account input[type=password] { 
+    height: 40px; 
+    padding-left: 10px; 
+    border: 1px solid #000000; 
+    border-radius: 10px;
+} 
+
+form.create-account input[type="submit"] { 
+    height: 40px; 
+    background: linear-gradient(red, rgb(94, 0, 0)); 
+    color: white; 
+    border: 0; 
+    cursor:url("https://static.tumblr.com/iidbopm/YMgn61nh0/caveira_bege_by_sizo.png"), default; 
+    border-radius: 10px; 
+    max-width: 200px; 
+    font-size: 19px; 
+
+} 
+
+form > .w100 > h2 { 
+    margin-top: 10px; 
+    color: #1d2129; 
+    font-size: 22px; 
+    font-weight: normal;
+} 
+
+select.nascimento { 
+    float: left;
+} 
+
+.input-radio { 
+    float: left; 
+    margin: 8px 10px 8px 0;
+}
+
+.input-radio > h2 {  
+    display: inline-block; 
+    font-weight: normal; 
+    font-size: 18px;   
+} 
+
+.input-radio input[type=radio] { 
+    width: auto !important; 
+    display: inline-block;
+} 
+ 
+section.linguas{ 
+    padding: 30px 0; 
+    background: white;
+}
+
+section.linguas > .center {  
+    padding-bottom: 10px; 
+    border-bottom: 1px solid rgb(36, 35, 35);
+} 
+
+section.linguas > .center > a { 
+    text-decoration: none; 
+    font-size: 14px; 
+    padding-right: 15px; 
+
+} 
+
+@media screen and (max-width: 768px) { 
+    .logo { 
+        width: 100%; 
+        text-align: center; 
+        float:none;
+
+    } 
+    form.form-login { 
+        width: 100%; 
+        text-align: center; 
+        margin-top: 17px; 
+        display: inline-block; 
+        float:none 
+    } 
+    .form-login > .form-element { 
+        display: block; 
+        margin: 10px 0;
+    } 
+    
+    .form-element > p { 
+        color: white; 
+        font-size: 14px;
+    } 
+    
+    .form-element input[type=email], 
+    .form-element input[type=password] { 
+        margin-top: 4px; 
+        border: 0; 
+        height: 22px; 
+        padding-left: 3px; 
+        width: 100%; 
+        max-width: 200px; 
+    } 
+    .img-caveira { 
+        display: none;
+    } 
+    div.abrir-conta { 
+        width: 100%;
+    }
+} 
+
+
